@@ -52,7 +52,7 @@ namespace SleepingHours
                         {
                             string aldersIntervalString = Convert.ToString(csi.KeyChar);
                             int aldersIntervalInt = Convert.ToInt32(aldersIntervalString);
-                            Console.WriteLine($"\n\nDet anbefales, at personen sover mellem {sleepingHours[aldersIntervalInt].}");
+                            Console.WriteLine($"\n\nDet anbefales, at personen sover mellem {sleepingHours[aldersIntervalInt]}.");
                             Console.WriteLine($"\nTryk på en vilkårlig tast for at prøve igen.");
                             Console.ReadLine();
                             bol = true;
